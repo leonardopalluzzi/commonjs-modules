@@ -14,7 +14,7 @@ function person() {
 
     const personObj = {
         fullname: `${firstName} ${lastName}`,
-        hobbies: hobbyList
+        hobbies: hobbyList.toString()
     }
 
     return personObj;
